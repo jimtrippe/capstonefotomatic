@@ -416,8 +416,8 @@ footer .copyright {
 }
 
 /* MOBILE Responsive View */
-@media only screen and (max-width: 480px) {
-  /* Less than 480 pixel screen */
+@media only screen and (max-width: 574px) {
+  /* Less than 574 pixel screen natural break nav*/
   .main-content {
     top: 3rem; /* To offset for fixed header. */
   }
