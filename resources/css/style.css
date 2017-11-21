@@ -95,7 +95,6 @@ header .tablet {
 
 #sign-up-section {
   display: flex;
-  justify-content: center;
   align-items: flex-start;
   height: 50.5rem;
 }
@@ -320,12 +319,8 @@ footer .copyright {
 /* TABLET Responsive View */
 @media only screen and (max-width: 768px) {
   /* Less than 768 pixel screen */
-    #quotes-section content {
+  #quotes-section content {
     padding: 1.875rem .625rem;
-  }
-  #features-section {
-    flex-flow: column;
-    padding: 0;
   }
   header .content {
     padding: 1.875rem;
